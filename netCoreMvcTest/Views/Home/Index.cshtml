@@ -1,0 +1,21 @@
+﻿<h1>Hello</h1>
+
+<script>
+    $.ajax({
+        url: "/api/register",
+        type: "POST",
+        data: JSON.stringify({
+            userName: "Sona",
+            email: "SadrievVadimTww@yandex.ru",
+            password: "sona123!"
+        }),
+        dataType: "json",
+        contentType: "application/json, charset=utf-8",
+        success: function (data) {
+
+        },
+        error: function (data) {
+
+        }
+    })
+</script>
